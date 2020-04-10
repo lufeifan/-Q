@@ -1,0 +1,42 @@
+[INFO  - 2020-04-10T01:30:04.038Z] GhostDriver - Main - running on port 57358
+[INFO  - 2020-04-10T01:30:06.556Z] Session [cf236fd0-7aca-11ea-a38d-9d9eb275d2e4] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2020-04-10T01:30:06.557Z] Session [cf236fd0-7aca-11ea-a38d-9d9eb275d2e4] - page.customHeaders:  - {}
+[INFO  - 2020-04-10T01:30:06.557Z] Session [cf236fd0-7aca-11ea-a38d-9d9eb275d2e4] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2020-04-10T01:30:06.557Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: cf236fd0-7aca-11ea-a38d-9d9eb275d2e4
+[ERROR - 2020-04-10T01:30:08.021Z] Session [cf236fd0-7aca-11ea-a38d-9d9eb275d2e4] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'links.append(span)')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-10T01:30:08.021Z] Session [cf236fd0-7aca-11ea-a38d-9d9eb275d2e4] - page.onError - stack:
+  global code (https://music.163.com/discover:3377)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-10T01:30:08.277Z] Session [cf236fd0-7aca-11ea-a38d-9d9eb275d2e4] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-10T01:30:08.277Z] Session [cf236fd0-7aca-11ea-a38d-9d9eb275d2e4] - page.onError - stack:
+  (anonymous function) (https://s5.music.126.net/static_public/5c51482cf8a93b7fc8cf42cb/0.6.4/vipcashier.umd.js:32)
+  t (https://s5.music.126.net/static_public/5c51482cf8a93b7fc8cf42cb/0.6.4/vipcashier.umd.js:1)
+  (anonymous function) (https://s5.music.126.net/static_public/5c51482cf8a93b7fc8cf42cb/0.6.4/vipcashier.umd.js:1)
+  t (https://s5.music.126.net/static_public/5c51482cf8a93b7fc8cf42cb/0.6.4/vipcashier.umd.js:1)
+  (anonymous function) (https://s5.music.126.net/static_public/5c51482cf8a93b7fc8cf42cb/0.6.4/vipcashier.umd.js:16)
+  t (https://s5.music.126.net/static_public/5c51482cf8a93b7fc8cf42cb/0.6.4/vipcashier.umd.js:1)
+  (anonymous function) (https://s5.music.126.net/static_public/5c51482cf8a93b7fc8cf42cb/0.6.4/vipcashier.umd.js:1)
+  (anonymous function) (https://s5.music.126.net/static_public/5c51482cf8a93b7fc8cf42cb/0.6.4/vipcashier.umd.js:1)
+  (anonymous function) (https://s5.music.126.net/static_public/5c51482cf8a93b7fc8cf42cb/0.6.4/vipcashier.umd.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-10T01:30:08.283Z] Session [cf236fd0-7aca-11ea-a38d-9d9eb275d2e4] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-10T01:30:08.283Z] Session [cf236fd0-7aca-11ea-a38d-9d9eb275d2e4] - page.onError - stack:
+  (anonymous function) (https://s5.music.126.net/static_public/5c51482cf8a93b7fc8cf42cb/0.6.4/vipcashier.umd.js:32)
+  t (https://s5.music.126.net/static_public/5c51482cf8a93b7fc8cf42cb/0.6.4/vipcashier.umd.js:1)
+  (anonymous function) (https://s5.music.126.net/static_public/5c51482cf8a93b7fc8cf42cb/0.6.4/vipcashier.umd.js:1)
+  t (https://s5.music.126.net/static_public/5c51482cf8a93b7fc8cf42cb/0.6.4/vipcashier.umd.js:1)
+  (anonymous function) (https://s5.music.126.net/static_public/5c51482cf8a93b7fc8cf42cb/0.6.4/vipcashier.umd.js:16)
+  t (https://s5.music.126.net/static_public/5c51482cf8a93b7fc8cf42cb/0.6.4/vipcashier.umd.js:1)
+  (anonymous function) (https://s5.music.126.net/static_public/5c51482cf8a93b7fc8cf42cb/0.6.4/vipcashier.umd.js:1)
+  (anonymous function) (https://s5.music.126.net/static_public/5c51482cf8a93b7fc8cf42cb/0.6.4/vipcashier.umd.js:1)
+  (anonymous function) (https://s5.music.126.net/static_public/5c51482cf8a93b7fc8cf42cb/0.6.4/vipcashier.umd.js:1)
+
+  phantomjs://platform/console++.js:263 in error
